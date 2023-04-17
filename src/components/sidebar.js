@@ -11,10 +11,6 @@ const Sidebar = () => {
     setNavigates([...getNavigates()]);
   }, []);
 
-  useEffect(() => {
-    console.log(navigates);
-  }, [navigates]); // if the navigates changed
-
   const getIconClasses = (icon) => {
     let classes = "nav-icon fa fa-";
     classes += icon;

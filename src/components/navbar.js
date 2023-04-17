@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import user1 from "../assets/img/user1.jpg";
 import user2 from "../assets/img/user2.jpg";
 import user3 from "../assets/img/user3.jpg";
@@ -14,9 +15,14 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <a href="#" className="nav-link">
+            <NavLink to="/" className="nav-link">
               صفحه اصلی
-            </a>
+            </NavLink>
+          </li>
+          <li className="nav-item d-none d-sm-inline-block">
+            <NavLink to="/login" className="nav-link">
+              ورود به سیستم
+            </NavLink>
           </li>
         </ul>
 

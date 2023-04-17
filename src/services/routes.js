@@ -49,6 +49,9 @@ import First_period_stock_of_commodities from "../pages/first_period/first_perio
 import Pay_cheques_for_the_first_period from "../pages/first_period/pay_cheques_for_the_first_period";
 import The_first_period_of_the_account_party from "../pages/first_period/the_first_period_of_the_account_party";
 
+// Home
+import Home from "../pages/home/home";
+
 // Login
 import Login from "../pages/login/login";
 
@@ -88,7 +91,8 @@ const My_routes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route
           path="/designing_the_appearance_of_all_types_of_cheque"
           element={<Designing_the_appearance_of_all_types_of_cheque />}
