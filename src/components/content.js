@@ -1,12 +1,11 @@
 import React from "react";
-import Breadcrumb from "./breadcrumb";
 import My_routes from "../services/routes";
 
 const Content = () => {
   return (
     <>
       <div className="content-wrapper">
-        <Breadcrumb />
+        <br />
         <section className="content">
           <div className="container-fluid">
             <div className="card card-default">
