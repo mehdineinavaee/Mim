@@ -1,6 +1,6 @@
 import React from "react";
 import Breadcrumb from "./breadcrumb";
-import My_routes from "./routes";
+import My_routes from "../services/routes";
 
 const Content = () => {
   return (
